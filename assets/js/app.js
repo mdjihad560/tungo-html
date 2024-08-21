@@ -6,29 +6,29 @@
   /*--------------------------------------------------------------
    [Table of contents]
   
-  TUNGO PRELOADER JS INIT
-  TUNGO STICKY MENU JS INIT
-  TUNGO HEADER SEARCH JS INIT
-  TUNGO MENU SIDEBAR JS INIT
-  TUNGO HERO SLIDER INIT
-  TUNGO HERO SLIDER2 INIT
-  TUNGO INSTAGRAM SLIDER INIT
-  TUNGO HERO THUMB SLIDER INIT
-  TUNGO GALLERY SLIDER INIT
-  TUNGO PROPERTIES SLIDER INIT
-  TUNGO PROPERTIES SLIDER2 INIT
-  TUNGO PROPERTIES SLIDER3 INIT
-  TUNGO TESTIMONIAL SLIDER INIT
-  TUNGO TESTIMONIAL SLIDER2 INIT
-  TUNGO TESTIMONIAL SLIDER3 INIT
-  TUNGO BRAND SLIDER INIT
-  TUNGO GALLERY SLIDER2 INIT
-  TUNGO COUNTER JS INIT
-  TUNGO MAGNIFIC POPUP VIDEO JS INIT
-  TUNGO MAGNIFIC POPUP IMAGE JS INIT
-  TUNGO PORTFOLIO MASONAY FILTER JS
-  TUNGO MAP JS
-  TUNGO WOW JS
+  onada PRELOADER JS INIT
+  onada STICKY MENU JS INIT
+  onada HEADER SEARCH JS INIT
+  onada MENU SIDEBAR JS INIT
+  onada HERO SLIDER INIT
+  onada HERO SLIDER2 INIT
+  onada INSTAGRAM SLIDER INIT
+  onada HERO THUMB SLIDER INIT
+  onada GALLERY SLIDER INIT
+  onada PROPERTIES SLIDER INIT
+  onada PROPERTIES SLIDER2 INIT
+  onada PROPERTIES SLIDER3 INIT
+  onada TESTIMONIAL SLIDER INIT
+  onada TESTIMONIAL SLIDER2 INIT
+  onada TESTIMONIAL SLIDER3 INIT
+  onada BRAND SLIDER INIT
+  onada GALLERY SLIDER2 INIT
+  onada COUNTER JS INIT
+  onada MAGNIFIC POPUP VIDEO JS INIT
+  onada MAGNIFIC POPUP IMAGE JS INIT
+  onada PORTFOLIO MASONAY FILTER JS
+  onada MAP JS
+  onada WOW JS
    
   -------------------------------------------------------------------*/
 
@@ -41,12 +41,12 @@
   };
   $(function () {
     /*--------------------------------------------------------------
-    TUNGO PRELOADER JS INIT
+    onada PRELOADER JS INIT
     --------------------------------------------------------------*/
-    $(".tungo-preloader-wrap").fadeOut(500);
+    $(".onada-preloader-wrap").fadeOut(500);
 
     /*--------------------------------------------------------------
-    TUNGO STICKY MENU JS INIT
+    onada STICKY MENU JS INIT
     --------------------------------------------------------------*/
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
@@ -57,27 +57,27 @@
     });
 
     /*--------------------------------------------------------------
-    TUNGO HEADER SEARCH JS INIT
+    onada HEADER SEARCH JS INIT
     --------------------------------------------------------------*/
-    $(".tungo-header-search, .tungo-header-search-close, .search-overlay").click(function () {
-      $(".tungo-header-search-section, .search-overlay").toggleClass("open");
+    $(".onada-header-search, .onada-header-search-close, .search-overlay").click(function () {
+      $(".onada-header-search-section, .search-overlay").toggleClass("open");
     });
 
     /*--------------------------------------------------------------
-    TUNGO MENU SIDEBAR JS INIT
+    onada MENU SIDEBAR JS INIT
     --------------------------------------------------------------*/
-    $(".tungo-berger-icon").on("click", function (event) {
-      $(".tungo-sidemenu-column, .offcanvas-overlay").addClass("active");
+    $(".onada-berger-icon").on("click", function (event) {
+      $(".onada-sidemenu-column, .offcanvas-overlay").addClass("active");
       event.preventDefault(e);
     });
-    $(".tungo-sidemenu-close, .offcanvas-overlay").on("click", function () {
-      $(".tungo-sidemenu-column, .offcanvas-overlay").removeClass("active");
+    $(".onada-sidemenu-close, .offcanvas-overlay").on("click", function () {
+      $(".onada-sidemenu-column, .offcanvas-overlay").removeClass("active");
     });
 
     /*--------------------------------------------------------------
-    TUNGO HERO SLIDER INIT
+    onada HERO SLIDER INIT
     --------------------------------------------------------------*/
-    var hero_slider = $('.tungo-hero-slider-init');
+    var hero_slider = $('.onada-hero-slider-init');
     if (hero_slider.is_exist()) {
       hero_slider.slick({
         infinite: true,
@@ -88,15 +88,15 @@
         autoplay: false,
         speed: 800,
         lazyLoad: 'progressive',
-        prevArrow: '<button class="slide-arrow tungo-hero-next"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
-        nextArrow: '<button class="slide-arrow tungo-hero-prev"><img src="assets/images/icon/arrow-right.svg" alt=""></button>'
+        prevArrow: '<button class="slide-arrow onada-hero-next"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
+        nextArrow: '<button class="slide-arrow onada-hero-prev"><img src="assets/images/icon/arrow-right.svg" alt=""></button>'
       }).slickAnimation();
     }
 
     /*--------------------------------------------------------------
-    TUNGO HERO SLIDER2 INIT
+    onada HERO SLIDER2 INIT
     --------------------------------------------------------------*/
-    var hero_slider2 = $('.tungo-hero-slider-init2');
+    var hero_slider2 = $('.onada-hero-slider-init2');
     if (hero_slider2.is_exist()) {
       hero_slider2.slick({
         infinite: true,
@@ -111,11 +111,11 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO INSTAGRAM SLIDER INIT
+    onada INSTAGRAM SLIDER INIT
     --------------------------------------------------------------*/
-    var tungo_insta_slider = $('.tungo-insta-slider-init');
-    if (tungo_insta_slider.is_exist()) {
-      tungo_insta_slider.slick({
+    var onada_insta_slider = $('.onada-insta-slider-init');
+    if (onada_insta_slider.is_exist()) {
+      onada_insta_slider.slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -142,9 +142,9 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO HERO THUMB SLIDER INIT
+    onada HERO THUMB SLIDER INIT
     --------------------------------------------------------------*/
-    var hero_thumb_skider = $('.tungo-hero-thumb-slider-init');
+    var hero_thumb_skider = $('.onada-hero-thumb-slider-init');
     if (hero_thumb_skider.is_exist()) {
       hero_thumb_skider.slick({
         infinite: true,
@@ -158,27 +158,27 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO GALLERY SLIDER INIT
+    onada GALLERY SLIDER INIT
     --------------------------------------------------------------*/
-    var tungo_gallery_slider = $('.tungo-gallery-slider');
-    if (tungo_gallery_slider.is_exist()) {
-      tungo_gallery_slider.slick({
+    var onada_gallery_slider = $('.onada-gallery-slider');
+    if (onada_gallery_slider.is_exist()) {
+      onada_gallery_slider.slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
         fade: true,
-        prevArrow: '<button class="slide-arrow tungo-gallery-next"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
-        nextArrow: '<button class="slide-arrow tungo-gallery-prev"><img src="assets/images/icon/arrow-right.svg" alt=""></button>',
-        asNavFor: '.tungo-gallery-slider-nav'
+        prevArrow: '<button class="slide-arrow onada-gallery-next"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
+        nextArrow: '<button class="slide-arrow onada-gallery-prev"><img src="assets/images/icon/arrow-right.svg" alt=""></button>',
+        asNavFor: '.onada-gallery-slider-nav'
       });
     }
-    var tungo_gallery_slider_nav = $('.tungo-gallery-slider-nav');
-    if (tungo_gallery_slider_nav.is_exist()) {
-      tungo_gallery_slider_nav.slick({
+    var onada_gallery_slider_nav = $('.onada-gallery-slider-nav');
+    if (onada_gallery_slider_nav.is_exist()) {
+      onada_gallery_slider_nav.slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        asNavFor: '.tungo-gallery-slider',
+        asNavFor: '.onada-gallery-slider',
         dots: false,
         infinite: true,
         arrows: false,
@@ -189,9 +189,9 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO PROPERTIES SLIDER INIT
+    onada PROPERTIES SLIDER INIT
     --------------------------------------------------------------*/
-    var properties_slider = $('.tungo-properties-slider');
+    var properties_slider = $('.onada-properties-slider');
     if (properties_slider.is_exist()) {
       properties_slider.slick({
         infinite: true,
@@ -202,8 +202,8 @@
         autoplay: false,
         centerMode: true,
         centerPadding: '250px',
-        prevArrow: '<button class="slide-arrow tungo-properties-next"><img src="assets/images/icon/arrow-left-black.svg" alt=""></button>',
-        nextArrow: '<button class="slide-arrow tungo-properties-prev"><img src="assets/images/icon/arrow-right-black.svg" alt=""></button>',
+        prevArrow: '<button class="slide-arrow onada-properties-next"><img src="assets/images/icon/arrow-left-black.svg" alt=""></button>',
+        nextArrow: '<button class="slide-arrow onada-properties-prev"><img src="assets/images/icon/arrow-right-black.svg" alt=""></button>',
         responsive: [{
           breakpoint: 1600,
           settings: {
@@ -238,9 +238,9 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO PROPERTIES SLIDER2 INIT
+    onada PROPERTIES SLIDER2 INIT
     --------------------------------------------------------------*/
-    var properties_slider2 = $('.tungo-properties-slider2');
+    var properties_slider2 = $('.onada-properties-slider2');
     if (properties_slider2.is_exist()) {
       properties_slider2.slick({
         infinite: true,
@@ -286,9 +286,9 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO PROPERTIES SLIDER3 INIT
+    onada PROPERTIES SLIDER3 INIT
     --------------------------------------------------------------*/
-    var properties_slider3 = $('.tungo-properties-slider3');
+    var properties_slider3 = $('.onada-properties-slider3');
     if (properties_slider3.is_exist()) {
       properties_slider3.slick({
         infinite: true,
@@ -331,7 +331,7 @@
         }]
       });
     }
-    var slider = jQuery(".tungo-properties-slider3");
+    var slider = jQuery(".onada-properties-slider3");
     slider;
     slider.on("wheel", function (e) {
       e.preventDefault();
@@ -342,9 +342,9 @@
       }
     });
     /*--------------------------------------------------------------
-    TUNGO TESTIMONIAL SLIDER INIT
+    onada TESTIMONIAL SLIDER INIT
     --------------------------------------------------------------*/
-    var testimonial_slider = $('.tungo-testimonial-slider');
+    var testimonial_slider = $('.onada-testimonial-slider');
     if (testimonial_slider.is_exist()) {
       testimonial_slider.slick({
         infinite: true,
@@ -389,9 +389,9 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO TESTIMONIAL SLIDER2 INIT
+    onada TESTIMONIAL SLIDER2 INIT
     --------------------------------------------------------------*/
-    var testimonail_slider2 = $('.tungo-testimonial-slider2');
+    var testimonail_slider2 = $('.onada-testimonial-slider2');
     if (testimonail_slider2.is_exist()) {
       testimonail_slider2.slick({
         infinite: true,
@@ -401,15 +401,15 @@
         dots: false,
         autoplay: false,
         speed: 1000,
-        prevArrow: '<button class="slide-arrow tungo-testimonial-next"><img src="assets/images/icon/arrow-left-black.svg" alt=""></button>',
-        nextArrow: '<button class="slide-arrow tungo-testimonial-prev"><img src="assets/images/icon/arrow-right-black.svg" alt=""></button>'
+        prevArrow: '<button class="slide-arrow onada-testimonial-next"><img src="assets/images/icon/arrow-left-black.svg" alt=""></button>',
+        nextArrow: '<button class="slide-arrow onada-testimonial-prev"><img src="assets/images/icon/arrow-right-black.svg" alt=""></button>'
       });
     }
 
     /*--------------------------------------------------------------
-    TUNGO TESTIMONIAL SLIDER3 INIT
+    onada TESTIMONIAL SLIDER3 INIT
     --------------------------------------------------------------*/
-    var testimonail_slider3 = $('.tungo-testimonial-slider3');
+    var testimonail_slider3 = $('.onada-testimonial-slider3');
     if (testimonail_slider3.is_exist()) {
       testimonail_slider3.slick({
         infinite: true,
@@ -423,11 +423,11 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO BRAND SLIDER INIT
+    onada BRAND SLIDER INIT
     --------------------------------------------------------------*/
-    var tungo_brand_slider = $('.tungo-brand-slider');
-    if (tungo_brand_slider.is_exist()) {
-      tungo_brand_slider.slick({
+    var onada_brand_slider = $('.onada-brand-slider');
+    if (onada_brand_slider.is_exist()) {
+      onada_brand_slider.slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -454,19 +454,19 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO GALLERY SLIDER2 INIT
+    onada GALLERY SLIDER2 INIT
     --------------------------------------------------------------*/
-    var tungo_gallery_slider2 = $('.tungo-gallery-slider2');
-    if (tungo_gallery_slider2.is_exist()) {
-      tungo_gallery_slider2.slick({
+    var onada_gallery_slider2 = $('.onada-gallery-slider2');
+    if (onada_gallery_slider2.is_exist()) {
+      onada_gallery_slider2.slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
         centerMode: true,
         centerPadding: '250px',
-        prevArrow: '<button class="slide-arrow tungo-gallery-next2"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
-        nextArrow: '<button class="slide-arrow tungo-gallery-prev2"><img src="assets/images/icon/arrow-right.svg" alt=""></button>',
+        prevArrow: '<button class="slide-arrow onada-gallery-next2"><img src="assets/images/icon/arrow-left.svg" alt=""></button>',
+        nextArrow: '<button class="slide-arrow onada-gallery-prev2"><img src="assets/images/icon/arrow-right.svg" alt=""></button>',
         responsive: [{
           breakpoint: 1600,
           settings: {
@@ -500,15 +500,15 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO COUNTER JS INIT
+    onada COUNTER JS INIT
     --------------------------------------------------------------*/
-    var tungo_counter = $('#tungo-counter');
-    if (tungo_counter.is_exist()) {
+    var onada_counter = $('#onada-counter');
+    if (onada_counter.is_exist()) {
       var a = 0;
       $(window).scroll(function () {
-        var oTop = $(tungo_counter).offset().top - window.innerHeight;
+        var oTop = $(onada_counter).offset().top - window.innerHeight;
         if (a == 0 && $(window).scrollTop() > oTop) {
-          $('.tungo-counter').each(function () {
+          $('.onada-counter').each(function () {
             var $this = $(this),
               countTo = $this.attr('data-percentage');
             $({
@@ -532,7 +532,7 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO MAGNIFIC POPUP VIDEO JS INIT
+    onada MAGNIFIC POPUP VIDEO JS INIT
     ------------------------------------------------------------*/
     var popup_youtube = $('.video-init');
     if (popup_youtube.is_exist()) {
@@ -543,7 +543,7 @@
     }
 
     /*--------------------------------------------------------------
-    TUNGO MAGNIFIC POPUP IMAGE JS INIT
+    onada MAGNIFIC POPUP IMAGE JS INIT
     ------------------------------------------------------------*/
 
     var popup_thumb = $('.image-init');
@@ -579,11 +579,11 @@
 
   $(window).on("load", function () {
     /*--------------------------------------------------------------
-    TUNGO PORTFOLIO MASONAY FILTER JS
+    onada PORTFOLIO MASONAY FILTER JS
     ------------------------------------------------------------*/
-    var tungo_gallery_masonay = $('#tungo-portfolio-masonay');
-    if (tungo_gallery_masonay.is_exist()) {
-      var $container = $(tungo_gallery_masonay),
+    var onada_gallery_masonay = $('#onada-portfolio-masonay');
+    if (onada_gallery_masonay.is_exist()) {
+      var $container = $(onada_gallery_masonay),
         colWidth = function colWidth() {
           var w = $container.width(),
             columnNum = 1,
@@ -625,7 +625,7 @@
         };
       isotope();
       $(window).resize(isotope);
-      var $optionSets = $('.tungo-portfolio-menu .option-set'),
+      var $optionSets = $('.onada-portfolio-menu .option-set'),
         $optionLinks = $optionSets.find('li');
       $optionLinks.click(function () {
         var $this = $(this);
@@ -653,7 +653,7 @@
   }); // End window LODE
 
   /*--------------------------------------------------------------
-  TUNGO MAP JS
+  onada MAP JS
   ------------------------------------------------------------*/
   var google_map = $('#map');
   if (google_map.is_exist()) {
@@ -765,9 +765,9 @@
         position: new google.maps.LatLng(40.6700, -73.9400),
         map: map,
         // icon: 'assets/images/all-img/contact/map.png',
-        title: 'tungo'
+        title: 'onada'
       });
-      var contentString = '<div id="content">' + '<div id="tpw">' + '<h3>tungo' + '</div>';
+      var contentString = '<div id="content">' + '<div id="tpw">' + '<h3>onada' + '</div>';
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 280
@@ -785,7 +785,7 @@
   }
 
   /*--------------------------------------------------------------
-  TUNGO WOW JS
+  onada WOW JS
   ------------------------------------------------------------*/
   var wow = new WOW({
     mobile: false,

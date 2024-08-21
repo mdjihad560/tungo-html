@@ -2,17 +2,17 @@
 	/*Activate default tab contents*/
 	var $magicLine, defaultActive;  
 	
-	defaultActive = $('.tungo-tabs-menu li.active a').attr('href');
+	defaultActive = $('.onada-tabs-menu li.active a').attr('href');
 	$(defaultActive).show();
 				
-	$('.tungo-tabs-menu').append("<li id='magic-line'></li>");
+	$('.onada-tabs-menu').append("<li id='magic-line'></li>");
 	$magicLine = $('#magic-line');		    
 	$magicLine.width($('.active').width())
 		// .css('left', $('.active a').position().left)
 		// .data('origLeft', $magicLine.position().left)
 		// .data('origWidth', $magicLine.width());				
 		
-	$('.tungo-tabs-menu li a').click(function(){
+	$('.onada-tabs-menu li a').click(function(){
 		var $this,tabId,leftVal,$tabContent;
 		$this = $(this);
 		$tabContent = $('.tabContent');
@@ -20,7 +20,7 @@
 		tabId = $this.attr('href');		
 		
 		leftVal = $($tabContent).index($(tabId)) * $tabContent.width() * -1;
-		$('.tungo-tabs-wrapper').stop().animate({left:leftVal});
+		$('.onada-tabs-wrapper').stop().animate({left:leftVal});
 		
 		$magicLine
 			.data('origLeft',$this.position().left)

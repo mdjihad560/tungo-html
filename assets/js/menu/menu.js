@@ -1,14 +1,14 @@
 /*---------- 03. Mobile Menu Active ----------*/
 $.fn.vsmobilemenu = function (options) {
     var opt = $.extend({
-        menuToggleBtn: ".tungo-menu-toggle",
-        bodyToggleClass: "tungo-body-visible",
-        subMenuClass: "tungo-submenu",
-        subMenuParent: "tungo-item-has-children",
-        subMenuParentToggle: "tungo-active",
-        meanExpandClass: "tungo-mean-expand",
-        appendElement: '<span class="tungo-mean-expand"></span>',
-        subMenuToggleClass: "tungo-open",
+        menuToggleBtn: ".onada-menu-toggle",
+        bodyToggleClass: "onada-body-visible",
+        subMenuClass: "onada-submenu",
+        subMenuParent: "onada-item-has-children",
+        subMenuParentToggle: "onada-active",
+        meanExpandClass: "onada-mean-expand",
+        appendElement: '<span class="onada-mean-expand"></span>',
+        subMenuToggleClass: "onada-open",
         toggleSpeed: 400,
       },
       options
@@ -84,4 +84,4 @@ $.fn.vsmobilemenu = function (options) {
     });
   };
 
-  $(".tungo-menu-wrapper").vsmobilemenu();
+  $(".onada-menu-wrapper").vsmobilemenu();
